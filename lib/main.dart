@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'screens/task_home_screen.dart';
 import 'my_home_app.dart';
 
 // /*First tut
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHomeApp(),
+      // home: MyTutHome(),
+      home: TaskHomeScreen(),
     );
   }
 }

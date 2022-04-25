@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 // import 'package:fluttertoast/fluttertoast.dart';
 
-class MyHomeApp extends StatefulWidget {
-  const MyHomeApp({Key? key}) : super(key: key);
+class MyTutHome extends StatefulWidget {
+  const MyTutHome({Key? key}) : super(key: key);
 
   @override
-  State<MyHomeApp> createState() => _MyHomeAppState();
+  State<MyTutHome> createState() => _MyTutHomeState();
 }
 
-class _MyHomeAppState extends State<MyHomeApp> {
+class _MyTutHomeState extends State<MyTutHome> {
   List<int> _listItem = [
     1,
     2,
@@ -26,7 +26,7 @@ class _MyHomeAppState extends State<MyHomeApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Welcome Home'),
+        title: Text('Welcome To Channel Tap'),
         backgroundColor: Colors.greenAccent, //bottom: Icon(Icons.add
       ),
 
